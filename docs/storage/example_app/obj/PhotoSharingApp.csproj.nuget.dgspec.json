@@ -1,0 +1,68 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/pohl-alexander/PhotoSharingApp/PhotoSharingApp.csproj": {}
+  },
+  "projects": {
+    "/home/pohl-alexander/PhotoSharingApp/PhotoSharingApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/pohl-alexander/PhotoSharingApp/PhotoSharingApp.csproj",
+        "projectName": "PhotoSharingApp",
+        "projectPath": "/home/pohl-alexander/PhotoSharingApp/PhotoSharingApp.csproj",
+        "packagesPath": "/home/pohl-alexander/.nuget/packages/",
+        "outputPath": "/home/pohl-alexander/PhotoSharingApp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/pohl-alexander/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Azure.Storage.Blobs": {
+              "target": "Package",
+              "version": "[12.10.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
