@@ -2,12 +2,14 @@
 
 ## Create Storage Account
 
-`az storage account create --name <name> --resource-group <rg> --location <server-location> --sku <account-type>`
+`az storage account create --name <name> --resource-group <rg> --location <server-location> --sku <sku> --kind <kind>`
 
 - **name**: 3-24 lowercase characters or digits
 - **location**: get names with `az account list-locations -o table`
-- **account-type**: Premium_LRS, Standard_GRS, Standard_LRS, Standard_RAGRS, Standard_ZRS
-
+- **sku**: Account Typ (replication)
+  - Premium_LRS, Standard_GRS, Standard_LRS, Standard_RAGRS, Standard_ZRS
+- **kind**: Version of storage
+  - StorageV2 is recommended (October 2021)
 ## Querys
 
 - All blobs in container:
